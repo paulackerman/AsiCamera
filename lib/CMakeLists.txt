@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.8)
 
 project (ASICamera2Boost CXX C)
 
-set(ASIVERSION "1.30")
+set(ASIVERSION "1.35")
 
 IF (CMAKE_SYSTEM_PROCESSOR MATCHES "armv+")
     set(ASIARCH "armv6")
